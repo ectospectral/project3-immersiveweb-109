@@ -1,0 +1,20 @@
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+    animation-name: fade-out;
+    animation-duration: 30s;
+    animation-iteration-count: 1;
+}
+
+body {
+    background: black;
+}
+
+@keyframes fade-out {
+    0% {opacity: 0;}
+    .25%{opacity: 1;}
+    100% {opacity: 0;}
+}
